@@ -209,7 +209,7 @@ async def handle_stock_symbol(update: Update, context: ContextTypes.DEFAULT_TYPE
             f"Volume: {data['Volume']}\n"
             f"५२ हप्ताको धेरै मुल्यबाट घटेको: {data['Down From High']}%\n"
             f"५२ हप्ताको कम मुल्यबाट बढेको: {data['Up From Low']}%\n\n"
-            "Thank you for using my bot. Please share it with your friends and groups."
+            "Thank you for using Syntoo's bot. Please share it with your friends and groups."
         )
     else:
         response = f"""Symbol '{symbol}' 
