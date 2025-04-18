@@ -207,8 +207,8 @@ async def handle_stock_symbol(update: Update, context: ContextTypes.DEFAULT_TYPE
             f"52 Week High: {data['52 Week High']}\n"
             f"52 Week Low: {data['52 Week Low']}\n"
             f"Volume: {data['Volume']}\n"
-            f"५२ हप्ताको धेरै मुल्यबाट घटेको: {data['Down From High']}%\n"
-            f"५२ हप्ताको कम मुल्यबाट बढेको: {data['Up From Low']}%\n\n"
+            f"Decrease from 52 week High: {data['Down From High']}%\n"
+            f"Increase from 52 week Low : {data['Up From Low']}%\n\n"
             "Thank you for using Syntoo's bot. Please share it with your friends and groups."
         )
     else:
