@@ -80,8 +80,8 @@ def fetch_52_week_data(symbol):
 
         if row_symbol.upper() == symbol.upper():
             try:
-                week_52_high = float(cols[19].text.strip().replace(',', ''))
-                week_52_low = float(cols[20].text.strip().replace(',', ''))
+                week_52_high = float(cols[22].text.strip().replace(',', ''))
+                week_52_low = float(cols[23].text.strip().replace(',', ''))
                 return {
                     '52 Week High': week_52_high,
                     '52 Week Low': week_52_low
